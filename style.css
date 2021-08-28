@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(240, 78%, 98%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: hsl(232, 13%, 33%);
+}
+
+body ::before{
+    content: '';
+    background-image: url('./images/Prismatic-Abstract-Flower-Line-Art-II-10.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 3.5%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: hsl(233, 13%, 49%);
+}
+
+.t-cont{
+    color: hsl(234, 14%, 74%);
+    margin-bottom: 30px;
+}
+
+#price-box{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2) ;
+    margin: 20px;
+}
+
+#price-box ul{
+    padding: 0;
+    list-style: none;
+    border-top: hsl(234, 14%, 74%);
+}
+
+#price-box ul li{
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 15px 0;
+    color: hsl(233, 13%, 49%);
+    font-size: 14px;
+}
+
+#price-box p{
+    font-size: 4em;
+    margin: 0;
+}
+
+#price-box button{
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    border: none;
+    font-family: 'Montserrat' sans-serif;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+#price-boxprice-box-super{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2) ;
+    margin: 20px;
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #fff;
+    transform: scale(1.15);
+}
+
+#price-boxprice-box-super > *{
+    transform: scale(0.869);
+}
+
+#price-boxprice-box-super ul{
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+
+}
+
+#price-boxprice-box-super ul li{
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 15px 0;
+    color: hsl(233, 13%, 49%);
+    font-size: 14px;
+
+}
+
+#price-boxprice-box-super p{
+    font-size: 4em;
+    margin: 0;
+}
+
+#price-boxprice-box-super button{
+    background-color: #fff;
+    color: hsl(237, 63%, 64%);
+    border: none;
+    font-family: 'Montserrat' sans-serif;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+#price-box, #price-boxprice-box-super ul,
+#price-box, #price-boxprice-box-super ul li{
+    border-color: #fff;
+}
+
+
+
