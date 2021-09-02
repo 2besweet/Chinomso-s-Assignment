@@ -16,7 +16,7 @@ body{
     color: hsl(232, 13%, 33%);
 }
 
-body ::before{
+/* body ::before{
     content: '';
     background-image: url('./images/Prismatic-Abstract-Flower-Line-Art-II-10.svg');
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body ::before{
     position: absolute;
     top: 0;
     right: 0;
-}
+} */
 
 .wrapper{
     margin: auto;
